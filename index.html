@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="A simulated Single Page Application with JavaScript vanilla, Bootstrap and Webpack">
+    <meta name="author" content="Hatching Hacking Cercle">
+    <title>Desktop Game</title>
+    <link rel="stylesheet" type="text/css" href="./dist/bundle.css" />
+  </head>
+
+  <body>
+    <div class="container-all">
+      <header>
+        <h1><a href="#games">The Hyper Progame</a></h1>
+        <div class="search-input">
+          <span>
+	    <object data="./src/assets/icons/search.svg" width="20px" height="20px">
+            </object>
+          </span>
+          <input id="key-words-input" class="form-control" type="search" placeholder="Find a game..." aria-label="Find a game">
+        </div>
+      </header>
+    </div>
+
+    <section id="topPageContent"></section>
+    <section id="pageContent"></section>
+    <section id="bottomPageContent"></section>
+
+    <footer>
+      <div class="color-block"></div>
+      <p>Matthieu BOUQUIN @ 2023 - Fictionnal website for exercice</p>
+    </footer>
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
